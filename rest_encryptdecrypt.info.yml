@@ -1,0 +1,22 @@
+name: Rest Encrypt decrypt
+
+type: module
+
+description: Module for encrypt and decrypt Rest API.
+
+package: Web services
+
+dependencies:
+ - drupal:rest
+ - restui
+ - encrypt
+ - key
+ 
+
+# version: 1.1
+
+core: 8.x
+# Information added by Drupal.org packaging script on 2020-04-23
+version: '8.x-dev'
+project: 'rest_encrypt_decrypt_api'
+datestamp: 1587661840
